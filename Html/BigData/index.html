@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Big Data</title>
+  <style>
+    /* Estilos gerais */
+    body {
+      background: linear-gradient(to right, #000000, #243b55);
+      font-family: Italic;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    /* Texto no topo */
+    .top-text {
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 10px;
+      color: white;
+      font-size: 14px;
+    }
+
+    /* Cabeçalho */
+    .header {
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 48px;
+      background: linear-gradient(to right, #ffffff, #ffffff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.466);
+      transition: text-shadow 0.10s ease;
+    }
+
+    .header h1:hover {
+      text-shadow: 2px 2px 4px rgba(88, 174, 255, 0.466);;
+    }
+
+    /* Conteúdo */
+    .content {
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .content p {
+      color: white;
+      font-size: 18px;
+      font-style: italic;
+      margin-bottom: 20px;
+      transition: color 0.5s ease;
+    }
+
+    .sublinhado {
+      text-decoration: underline;
+      transition: color 0.5s ease;
+    }
+
+    .sublinhado:hover {
+      color: #0e96b8;
+    }
+
+    /* Imagens */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Logo */
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 100px;
+      height: 100px;
+      transition: transform 0.5s ease;
+    }
+
+    .logo:hover {
+      transform: rotate(360deg);
+    }
+
+    /* Créditos */
+    .credits {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-text">1°SEM - Ciência da Computação</div>
+
+  <div class="logo">
+    <img src="logofib.png" alt="logo da faculdade">
+  </div>
+
+  <div class="header">
+    <h1>Big Data</h1>
+    <hr color="white" size="2" width="50%">
+  </div>
+
+  <div class="content">
+    <p>Big Data refere-se ao grande volume de dados estruturados e não estruturados
+      que inundam as empresas diariamente.
+      É o processo de coletar, armazenar e analisar esses dados para obter insights valiosos
+      e tomar decisões informadas.
+    </p>
+
+    <img src="Bigdata1.png" alt="Imagem sobre Big Data">
+
+    <p>
+      O Big Data possui cinco características principais, os "cinco Vs":
+    </p>
+    <p>
+      <u class="sublinhado">Volume:</u> o volume de dados determina se pode ser considerado ou não Big Data.<br>
+      <u class="sublinhado">Velocidade:</u> a celeridade que os dados são gerados, geralmente em tempo real.<br>
+      <u class="sublinhado">Variedade:</u> os dados podem ser estruturados (organizados em planilhas, encontrados em banco de dados) e não estruturados
+      (que não podem ser organizados em linhas e colunas como vídeos e comentários em redes sociais).<br>
+      <u class="sublinhado">Veracidade:</u> a qualidade dos dados é importante para que sejam aproveitáveis.<br>
+      <u class="sublinhado">Valor:</u> precisam ser monetizáveis para que o esforço em tratá-los se justifique.
+    </p>
+
+    <img src="5Vbigdata.png" alt="Imagem sobre os 5V Big Data">
+  </div>
+
+  <div class="credits">
+    Créditos de autoria por: Júllia Lopes Gomes Santos
+  </div>
+</body>
+</html>
